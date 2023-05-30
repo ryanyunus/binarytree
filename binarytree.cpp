@@ -21,10 +21,11 @@ void createNewTree(char label)
         root->left = NULL;
         root->right = NULL;
         root->parent = NULL;
+        cout << "\n" << "berhasil dibuat menjadi root." << endl;
     }
 }
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  createNewTree('A');
 }
+
